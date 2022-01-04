@@ -20,7 +20,7 @@ public class ContactView extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ContactView.this,Home.class);
+                Intent intent = new Intent(ContactView.this,Welcome.class);
                 startActivity(intent);
             }
         });
