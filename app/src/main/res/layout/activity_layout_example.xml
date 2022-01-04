@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="80dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/result"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Result"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+<!--    <EditText-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="User Name"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:id="@+id/input"-->
+<!--        />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show"
+        android:textSize="70dp"
+        android:text=""
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:text="Plus"
+            android:layout_margin="20dp"
+            android:id="@+id/addBtn"
+            android:layout_marginTop="100dp"
+            android:onClick="add"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:text="Minus"
+            android:layout_margin="20dp"
+            android:id="@+id/minusBtn"
+            android:layout_marginTop="100dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:text="Reset"
+            android:layout_margin="20dp"
+            android:id="@+id/reset"
+            android:layout_marginTop="100dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="Go to"
+        android:layout_margin="20dp"
+        android:id="@+id/go"
+        android:layout_marginTop="100dp"
+        />
+
+</LinearLayout>

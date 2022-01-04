@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout-land/activity_device_orentation_ex.xml" value="0.21981981981981982" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_calculator.xml" value="0.264" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_card_example.xml" value="0.264" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_contact_view.xml" value="0.24635416666666668" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_device_orentation_ex.xml" value="0.4" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_home.xml" value="0.24635416666666668" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_image_example.xml" value="0.264" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_layout_example.xml" value="0.25" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_list_example.xml" value="0.4" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_material_deign_ex.xml" value="0.536" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_navigation_example.xml" value="0.12135416666666667" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_pass_value.xml" value="0.24635416666666668" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_recycle_view.xml" value="0.264" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_relative_layout_example.xml" value="0.12708333333333333" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.2359375" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_simple_btn.xml" value="0.125" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_welcome.xml" value="0.24635416666666668" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/activity_xml_example.xml" value="0.1234375" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/contact_list_item.xml" value="0.6" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/layout/trademark.xml" value="0.12708333333333333" />
+        <entry key="..\:/Android/FirstApplication/app/src/main/res/menu/main_menu.xml" value="0.1234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

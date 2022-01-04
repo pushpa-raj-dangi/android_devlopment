@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="List of Citis in Nepal"
+    android:padding="10dp"
+    android:layout_centerHorizontal="true"
+    android:textAlignment="center"
+    android:textColor="@color/white"
+    android:textFontWeight="@integer/material_motion_duration_long_2"
+    android:background="@color/design_default_color_primary"
+    android:id="@+id/citiTitle"/>
+
+    <Spinner
+        android:id="@+id/citiesSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/citiTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:entries="@array/students" />
+
+    <ListView
+        android:id="@+id/myList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/citiesSpinner"
+        android:layout_marginTop="50dp" />
+</RelativeLayout>
