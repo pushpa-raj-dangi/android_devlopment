@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Boroswe the pages"
+        android:text="Browse the pages"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/welcomeTxt"
         android:textSize="30sp"
@@ -27,28 +27,28 @@
         android:textStyle="bold|italic"
         android:textColor="@color/yellow"
         />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/browse"
-        android:layout_centerHorizontal="false"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
-        android:id="@+id/home"
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:layout_below="@id/browse"
+       android:orientation="horizontal">
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:id="@+id/home"
+           android:text="Home"/>
 
-        android:background="@color/white"
-        android:text="Home"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/browse"
-        android:layout_centerHorizontal="false"
-        android:layout_marginTop="30dp"
-        android:id="@+id/contact"
-        android:layout_toRightOf="@+id/home"
-        android:layout_marginLeft="30dp"
-        android:backgroundTint="@color/yellow"
-        android:text="Contact"/>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/browse"
+           android:layout_centerHorizontal="true"
+           android:id="@+id/contact"
+           android:layout_marginLeft="10dp"
+           android:backgroundTint="@color/yellow"
+           android:text="Contact"/>
+   </LinearLayout>
 
 </RelativeLayout>

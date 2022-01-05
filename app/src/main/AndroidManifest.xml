@@ -11,8 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstApplication">
 <!--        <activity-->
-<!--            android:name=".RelativeExample"-->
+<!--            android:name=".FetchApi"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".RelativeExample" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".ContactView"
             android:exported="false" />
@@ -45,10 +48,9 @@
             android:exported="false" />
         <activity
             android:name=".ListExample"
-            android:exported="false" />
-<!--        <activity-->
-<!--            android:name=".RelativeLayoutExample"-->
-<!--            android:exported="false" />-->
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".RelativeLayoutExample" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".Calculator"
             android:exported="false" /> <!-- <activity -->
@@ -57,7 +59,7 @@
         <!-- android:name=".LayoutExample" -->
         <!-- android:exported="true" /> -->
         <activity
-            android:name=".RelativeExample"
+            android:name=".FetchApi"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
